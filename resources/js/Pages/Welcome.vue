@@ -59,10 +59,10 @@
                 <div class="mt-2">
                     <div class="border-b border-gray-200">
                         <div class="-mb-px flex px-4 space-x-8" aria-orientation="horizontal" role="tablist">
-                            <!-- Selected: "text-indigo-600 border-indigo-600", Not Selected: "text-gray-900 border-transparent" -->
+                            <!-- Selected: "text-orange-600 border-orange-600", Not Selected: "text-gray-900 border-transparent" -->
                             <button id="tabs-1-tab-1" class="text-gray-900 border-transparent flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium" aria-controls="tabs-1-panel-1" role="tab" type="button">Women</button>
 
-                            <!-- Selected: "text-indigo-600 border-indigo-600", Not Selected: "text-gray-900 border-transparent" -->
+                            <!-- Selected: "text-orange-600 border-orange-600", Not Selected: "text-gray-900 border-transparent" -->
                             <button id="tabs-1-tab-2" class="text-gray-900 border-transparent flex-1 whitespace-nowrap py-4 px-1 border-b-2 text-base font-medium" aria-controls="tabs-1-panel-2" role="tab" type="button">Men</button>
                         </div>
                     </div>
@@ -81,25 +81,19 @@
 
                 <div class="border-t border-gray-200 py-6 px-4 space-y-6">
                     <div class="flow-root">
-                        <a href="#" class="-m-2 p-2 block font-medium text-gray-900">Sign in</a>
+                        <a href="#" class="-m-2 p-2 block font-medium text-gray-900">Anmelden</a>
                     </div>
                     <div class="flow-root">
-                        <a href="#" class="-m-2 p-2 block font-medium text-gray-900">Create account</a>
+                        <a href="#" class="-m-2 p-2 block font-medium text-gray-900">Registrieren</a>
                     </div>
                 </div>
 
-                <div class="border-t border-gray-200 py-6 px-4">
-                    <a href="#" class="-m-2 p-2 flex items-center">
-                        <img src="https://tailwindui.com/img/flags/flag-canada.svg" alt="" class="w-5 h-auto block flex-shrink-0">
-                        <span class="ml-3 block text-base font-medium text-gray-900"> CAD </span>
-                        <span class="sr-only">, change currency</span>
-                    </a>
-                </div>
+
             </div>
         </div>
 
         <header class="relative bg-white">
-            <p class="bg-indigo-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">Get free delivery on orders over $100</p>
+            <p class="bg-orange-600 h-10 flex items-center justify-center text-sm font-medium text-white px-4 sm:px-6 lg:px-8">Jetzztt neu in Norf! Dein eigener Trainignsraum!</p>
 
             <nav aria-label="Top" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="border-b border-gray-200">
@@ -117,7 +111,7 @@
                         <div class="ml-4 flex lg:ml-0">
                             <a href="#">
                                 <span class="sr-only">Workflow</span>
-                                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600" alt="">
+                                <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?color=orange&shade=600" alt="">
                             </a>
                         </div>
 
@@ -125,15 +119,15 @@
 
                         <div class="ml-auto flex items-center">
                             <div class="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
-                                <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">Sign in</a>
+                                <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">Anmelden</a>
                                 <span class="h-6 w-px bg-gray-200" aria-hidden="true"></span>
-                                <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">Create account</a>
+                                <a href="#" class="text-sm font-medium text-gray-700 hover:text-gray-800">Registrieren</a>
                             </div>
 
                             <div class="hidden lg:ml-8 lg:flex">
                                 <a href="#" class="text-gray-700 hover:text-gray-800 flex items-center">
-                                    <img src="https://tailwindui.com/img/flags/flag-canada.svg" alt="" class="w-5 h-auto block flex-shrink-0">
-                                    <span class="ml-3 block text-sm font-medium"> CAD </span>
+                                    <img src="https://tailwindui.com/img/flags/flag-germany.svg" alt="" class="w-5 h-auto block flex-shrink-0">
+                                    <span class="ml-3 block text-sm font-medium"> DE </span>
                                     <span class="sr-only">, change currency</span>
                                 </a>
                             </div>
@@ -176,7 +170,7 @@
                             <ol role="list" class="flex items-center space-x-2">
                                 <li>
                                     <div class="flex items-center text-sm">
-                                        <a href="#" class="font-medium text-gray-500 hover:text-gray-900"> Travel </a>
+                                        <a href="#" class="font-medium text-gray-500 hover:text-gray-900"> Gesundheit </a>
 
                                         <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" class="ml-2 flex-shrink-0 h-5 w-5 text-gray-300">
                                             <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
@@ -186,7 +180,17 @@
 
                                 <li>
                                     <div class="flex items-center text-sm">
-                                        <a href="#" class="font-medium text-gray-500 hover:text-gray-900"> Bags </a>
+                                        <a href="#" class="font-medium text-gray-500 hover:text-gray-900"> Fitness </a>
+
+                                        <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true" class="ml-2 flex-shrink-0 h-5 w-5 text-gray-300">
+                                            <path d="M5.555 17.776l8-16 .894.448-8 16-.894-.448z" />
+                                        </svg>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="flex items-center text-sm">
+                                        <a href="#" class="font-medium text-gray-500 hover:text-gray-900"> Spaß </a>
                                     </div>
                                 </li>
                             </ol>
@@ -197,10 +201,9 @@
                         </div>
 
                         <section aria-labelledby="information-heading" class="mt-4">
-                            <h2 id="information-heading" class="sr-only">Product information</h2>
 
                             <div class="flex items-center">
-                                <p class="text-lg text-gray-900 sm:text-xl">$220</p>
+                                <p class="text-lg text-gray-900 sm:text-xl">ab 12€</p>
 
                                 <div class="ml-4 pl-4 border-l border-gray-300">
                                     <h2 class="sr-only">Reviews</h2>
@@ -238,13 +241,13 @@
                                             </div>
                                             <p class="sr-only">4 out of 5 stars</p>
                                         </div>
-                                        <p class="ml-2 text-sm text-gray-500">1624 reviews</p>
+                                        <p class="ml-2 text-sm text-gray-500">1624 Bewertungen</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="mt-4 space-y-6">
-                                <p class="text-base text-gray-500">Don&#039;t compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, crisps, fries, biscuits, crackers, and cookies secure.</p>
+                                <p class="text-base text-gray-500">Wir haben die Ausstattung, du gibst Gas. Ein Raum für Training, Gesundheit und Freundschaft. Ob Profi oder Freizeitsportler, jung oder alt. MeinTrainingsraum ist ein Raum für dich!</p>
                             </div>
 
                             <div class="mt-6 flex items-center">
@@ -252,7 +255,7 @@
                                 <svg class="flex-shrink-0 w-5 h-5 text-green-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
                                 </svg>
-                                <p class="ml-2 text-sm text-gray-500">In stock and ready to ship</p>
+                                <p class="ml-2 text-sm text-gray-500">Ohne Risiko, ohne Vertragslaufzeit, einfach nur gut.</p>
                             </div>
                         </section>
                     </div>
@@ -275,26 +278,26 @@
                                     <fieldset>
                                         <legend class="block text-sm font-medium text-gray-700">Size</legend>
                                         <div class="mt-1 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                                            <!-- Active: "ring-2 ring-indigo-500" -->
-                                            <label :class="{ 'ring-2 ring-indigo-500': customerType == 'old'}" @click="customerType = 'old'"  class="relative block border border-gray-300 rounded-lg p-4 cursor-pointer focus:outline-none">
+                                            <!-- Active: "ring-2 ring-orange-500" -->
+                                            <label :class="{ 'ring-2 ring-orange-500': customerType == 'old'}" @click="customerType = 'old'"  class="relative block border border-gray-300 rounded-lg p-4 cursor-pointer focus:outline-none">
                                                 <input type="radio" name="size-choice" value="18L" class="sr-only" aria-labelledby="size-choice-0-label" aria-describedby="size-choice-0-description">
                                                 <p id="size-choice-0-label" class="text-base font-medium text-gray-900">Bestandskunde</p>
-                                                <p id="size-choice-0-description" class="mt-1 text-sm text-gray-500">Perfect for a reasonable amount of snacks.</p>
+                                                <p id="size-choice-0-description" class="mt-1 text-sm text-gray-500">Du bist bereits registriert und möchtest direkt durchstarten.</p>
                                                 <!--
                                                   Active: "border", Not Active: "border-2"
-                                                  Checked: "border-indigo-500", Not Checked: "border-transparent"
+                                                  Checked: "border-orange-500", Not Checked: "border-transparent"
                                                 -->
                                                 <div class="absolute -inset-px rounded-lg border-2 pointer-events-none" aria-hidden="true"></div>
                                             </label>
 
-                                            <!-- Active: "ring-2 ring-indigo-500" -->
-                                            <label :class="{ 'ring-2 ring-indigo-500': customerType == 'new'}" @click="customerType = 'new'" class="relative block border border-gray-300 rounded-lg p-4 cursor-pointer focus:outline-none">
+                                            <!-- Active: "ring-2 ring-orange-500" -->
+                                            <label :class="{ 'ring-2 ring-orange-500': customerType == 'new'}" @click="customerType = 'new'" class="relative block border border-gray-300 rounded-lg p-4 cursor-pointer focus:outline-none">
                                                 <input type="radio" name="size-choice" value="20L" class="sr-only" aria-labelledby="size-choice-1-label" aria-describedby="size-choice-1-description">
                                                 <p id="size-choice-1-label" class="text-base font-medium text-gray-900">Neukunde</p>
-                                                <p id="size-choice-1-description" class="mt-1 text-sm text-gray-500">Enough room for a serious amount of snacks.</p>
+                                                <p id="size-choice-1-description" class="mt-1 text-sm text-gray-500">Du bist das erste Mal bei uns und möchtest dich neu registrieren.</p>
                                                 <!--
                                                   Active: "border", Not Active: "border-2"
-                                                  Checked: "border-indigo-500", Not Checked: "border-transparent"
+                                                  Checked: "border-orange-500", Not Checked: "border-transparent"
                                                 -->
                                                 <div class="absolute -inset-px rounded-lg border-2 pointer-events-none" aria-hidden="true"></div>
                                             </label>
@@ -303,7 +306,7 @@
                                 </div>
                                 <div class="mt-4">
                                     <a href="#" class="group inline-flex text-sm text-gray-500 hover:text-gray-700">
-                                        <span>What size should I buy?</span>
+                                        <span>Wie ist die Preisgestaltung?</span>
                                         <!-- Heroicon name: solid/question-mark-circle -->
                                         <svg class="flex-shrink-0 ml-2 h-5 w-5 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                             <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
@@ -311,7 +314,7 @@
                                     </a>
                                 </div>
                                 <div class="mt-10">
-                                    <a type="button" :href="nextLink" :disabled="customerType == null" class="w-full bg-indigo-600 border disabled:bg-gray-300 border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-indigo-500">Fortfahren</a>
+                                    <Link as="button" :href="nextLink" :disabled="customerType == null" class="w-full bg-orange-600 border disabled:bg-gray-300 border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-50 focus:ring-orange-500">Fortfahren</Link>
                                 </div>
                                 <div class="mt-6 text-center">
                                     <a href="#" class="group inline-flex text-base font-medium">
@@ -319,7 +322,7 @@
                                         <svg class="flex-shrink-0 mr-2 h-6 w-6 text-gray-400 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                                         </svg>
-                                        <span class="text-gray-500 hover:text-gray-700">Lifetime Guarantee</span>
+                                        <span class="text-gray-500 hover:text-gray-700">Keine Vertragsbindung</span>
                                     </a>
                                 </div>
                             </form>
@@ -598,7 +601,7 @@
                     <div class="grid grid-cols-1 md:grid-cols-12 md:grid-flow-col md:gap-x-8 md:gap-y-16 md:auto-rows-min">
                         <!-- Image section -->
                         <div class="col-span-1 md:col-span-2 lg:row-start-1 lg:col-start-1">
-                            <img src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600" alt="" class="h-8 w-auto">
+                            <img src="https://tailwindui.com/img/logos/workflow-mark.svg?color=orange&shade=600" alt="" class="h-8 w-auto">
                         </div>
 
                         <!-- Sitemap sections -->
@@ -697,9 +700,9 @@
                             <p class="mt-6 text-sm text-gray-500">The latest deals and savings, sent to your inbox weekly.</p>
                             <form class="mt-2 flex sm:max-w-md">
                                 <label for="email-address" class="sr-only">Email address</label>
-                                <input id="email-address" type="text" autocomplete="email" required class="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+                                <input id="email-address" type="text" autocomplete="email" required class="appearance-none min-w-0 w-full bg-white border border-gray-300 rounded-md shadow-sm py-2 px-4 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:border-orange-500 focus:ring-1 focus:ring-orange-500">
                                 <div class="ml-4 flex-shrink-0">
-                                    <button type="submit" class="w-full bg-indigo-600 border border-transparent rounded-md shadow-sm py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Sign up</button>
+                                    <button type="submit" class="w-full bg-orange-600 border border-transparent rounded-md shadow-sm py-2 px-4 flex items-center justify-center text-base font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">Sign up</button>
                                 </div>
                             </form>
                         </div>
@@ -781,6 +784,7 @@
 <script>
     import { defineComponent } from 'vue'
     import { Head, Link } from '@inertiajs/inertia-vue3';
+
 
     export default defineComponent({
         data() {

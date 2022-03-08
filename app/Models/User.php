@@ -10,8 +10,10 @@ use Laravel\Fortify\TwoFactorAuthenticatable;
 use Laravel\Jetstream\HasProfilePhoto;
 use Laravel\Sanctum\HasApiTokens;
 
-class User extends Authenticatable
+class User extends Authenticatable implements \Laravel\Cashier\Order\Contracts\ProvidesInvoiceInformation
 {
+    use \Laravel\Cashier\Billable;
+
     use HasApiTokens;
     use HasFactory;
     use HasProfilePhoto;
@@ -58,4 +60,32 @@ class User extends Authenticatable
     protected $appends = [
         'profile_photo_url',
     ];
+
+    public function mollieCustomerFields() {
+        return [
+            'email' => $this->email,
+            'name' => $this->name,
+        ];
+    }
+
+    /**
+    * Get the receiver information for the invoice.
+    * Typically includes the name and some sort of (E-mail/physical) address.
+    *
+    * @return array An array of strings
+    */
+    public function getInvoiceInformation()
+    {
+        return [$this->name, $this->email];
+    }
+
+    /**
+    * Get additional information to be displayed on the invoice. Typically a note provided by the customer.
+    *
+    * @return string|null
+    */
+    public function getExtraBillingInformation()
+    {
+        return null;
+    }
 }
